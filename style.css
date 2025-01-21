@@ -1,0 +1,30 @@
+body {
+    font-family: serif;
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.header {
+    font-size: 20px;
+    margin-left: 175px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sidebar {
+    flex-shrink: 0;
+}
+
+.body {
+    display: flex;
+    gap: 30px;
+}
