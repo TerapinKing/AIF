@@ -13,6 +13,10 @@ ul {
     
 }
 
+h1 {
+    color: green;
+}
+
 .header {
     font-size: 20px;
     margin-left: 175px;
@@ -24,7 +28,21 @@ ul {
     flex-shrink: 0;
 }
 
-.body {
+.page {
     display: flex;
     gap: 30px;
+}
+
+.body {
+    margin-left: 20px;
+}
+
+.bodyheading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.filmmakers {
+    display: flex;
+    gap: 12px;
 }
